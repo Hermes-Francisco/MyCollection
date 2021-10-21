@@ -1,0 +1,1 @@
+Fiz isso porque fiquei curioso sobre como eu programaria uma `Collection` com funções parecidas à do Laravel (o `Illuminate\Support\Collection`)
