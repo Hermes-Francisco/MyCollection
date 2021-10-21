@@ -25,8 +25,7 @@ class MyCollectionQuery extends MyAbstractCollection
             $this->first = new MyCollectionItem(null, $value, $id);
             $this->last = $this->first;
         } else {
-            $this->last->link($value, $id);
-            $this->last = $this->last->getNext();
+            $this->last = $this->last->link($value, $id);
         }
     }
 

@@ -50,8 +50,7 @@ class MyCollection extends MyAbstractCollection
             $this->last = $this->first;
         } else {
             $this->autoIncrement++;
-            $this->last->link($value, $this->autoIncrement);
-            $this->last = $this->last->getNext();
+            $this->last = $this->last->link($value, $this->autoIncrement);
         }
     }
 
